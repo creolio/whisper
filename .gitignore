@@ -1,0 +1,30 @@
+# Pycharm
+.idea/*
+!.idea/rec_settings.json
+
+# VSCode
+.vscode/*
+!.vscode/rec_settings.json
+!.vscode/extensions.json
+# Live Share
+.vsls.json
+
+# Virtual Environments
+venv/
+env/
+
+# Caches
+__pycache__/
+.pytest_cache/
+.mypy_cache/
+
+# Coverage reports
+htmlcov/
+.coverage
+coverage/
+
+# Project-specific
+audio/*
+!audio/
+text/*
+!text/

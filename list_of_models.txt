@@ -1,0 +1,15 @@
+MODELS IN ORDER FROM SMALLEST TO LARGEST:
+
+model = whisper.load_model("tiny")
+model = whisper.load_model("base")
+model = whisper.load_model("small")
+model = whisper.load_model("medium")
+model = whisper.load_model("large")
+
+
+USE .en MODELS IF ENGLISH:
+
+model = whisper.load_model("tiny.en")
+model = whisper.load_model("base.en")
+model = whisper.load_model("small.en")
+model = whisper.load_model("medium.en")
